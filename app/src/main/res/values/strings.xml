@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_title">Title</string>
+    <string name="text_view_date">Date</string>
+    <string name="text_view_bmi">BMI</string>
+    <string name="text_view_weight_change">Weight Change</string>
+    <string name="text_view_calories_burned">Calories Burned</string>
+    <string name="text_view_distance">Distance</string>
+    <string name="text_view_no_text"></string>
+    <string name="main_button_archive">Archive</string>
+    <string name="main_button_new_record">New Record</string>
+    <string name="main_button_settings">Settings</string>
+</resources>
