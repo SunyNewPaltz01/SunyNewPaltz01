@@ -16,7 +16,7 @@ public class Record implements Comparable<Record> {
     public Record(double weight, int timeWalked) {
         // BMI is calculated and stored as metric
         this.weight = weight;
-        bmi = weight/run.height;
+        bmi = ( weight/ ( Math.pow(run.height, 2) ) * 10000 ); // for cm conversion
 
         Date d = new Date();
         SimpleDateFormat dF = new SimpleDateFormat("EEEE, MMMM d, YYYY");

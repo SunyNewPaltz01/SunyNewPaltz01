@@ -34,4 +34,10 @@
     <string name="text_view_walking">walking</string>
     <string name="text_view_weights">Weights</string>
     <string name="text_view_yoga">Yoga</string>
+
+    <string name="confirmation_title">Confirmation</string>
+    <string name="confirmation_bmi">BMI</string>
+    <string name="confirmation_show_bmi">Show BMI</string>
+    <string name="confirmation_button_save">Save</string>
+
 </resources>

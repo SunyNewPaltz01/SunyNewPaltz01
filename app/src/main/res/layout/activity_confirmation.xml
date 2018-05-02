@@ -1,19 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.group_project.myapplication.Confirmation">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/confirmation_title"
+        android:textSize="@dimen/main_title_dimens" />
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:orientation="horizontal">
 
         <TextView
+
             android:id="@+id/bmi"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmation_bmi" />
+
+        <TextView
+
+            android:id="@+id/showBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:text="@string/confirmation_show_bmi" />
+
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/weightChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight Change" />
+
+        <TextView
+
+            android:id="@+id/showWeightChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:text="Show Weight Change" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/caloriesBurned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories Burned" />
+
+        <TextView
+
+            android:id="@+id/showCaloriesBurned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="63dp"
+            android:text="Show Calories Burned" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/calorieIntake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calorie Intake" />
+
+        <TextView
+
+            android:id="@+id/showCalorieIntake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="78dp"
+            android:text="Show Calorie Intake" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmation_button_save" />
+    </LinearLayout>
+
+</LinearLayout>

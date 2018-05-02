@@ -8,6 +8,11 @@ public class run {
     public static OList l = new OList();
     public static int height;
 
+    public run ()
+    {
+        setHeight(183);
+    }
+
     // called from the settings to change the program user's height
     public static void setHeight(int h) {
         height = h;
