@@ -4,9 +4,10 @@
     <string name="text_view_date">Date</string>
     <string name="text_view_bmi">BMI</string>
     <string name="text_view_weight_change">Weight Change</string>
-    <string name="text_view_calories_burned">Calories Burned</string>
+    <string name="text_view_weight">Weight</string>
     <string name="text_view_distance">Distance</string>
     <string name="text_view_no_text"></string>
+    <string name="text_view_timeWalked">Time Walked (in Minutes)</string>
     <string name="main_button_archive">Archive</string>
     <string name="main_button_new_record">New Record</string>
     <string name="main_button_settings">Settings</string>
@@ -19,8 +20,7 @@
     <string name="archive_title">Archive</string>
 
     <string name="new_record_title">New Record</string>
-    <string name="button_activities">Activities</string>
-    <string name="button_new_record_save">Save</string>
+    <string name="button_new_record_save">Next</string>
 
     <string name="activities_title">Activities</string>
     <string name="button_done_workouts">Done</string>
