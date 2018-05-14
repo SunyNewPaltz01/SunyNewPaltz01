@@ -47,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3333"
+            android:onClick="goToSettings"
             android:text="@string/main_button_settings"
             android:textSize="8sp" />
 

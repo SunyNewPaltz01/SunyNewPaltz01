@@ -13,7 +13,8 @@
     <string name="main_button_settings">Settings</string>
 
     <string name="settings_title">Settings</string>
-    <string name="text_view_set_switch">Imperial or Metric</string>
+    <string name="text_view_set_switch">Metric or Imperial</string>
+    <string name="text_view_switch_results">Overwritten</string>
     <string name="text_view_set_height">Height</string>
     <string name="button_home">Home</string>
 
